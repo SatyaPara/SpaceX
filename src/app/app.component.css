@@ -1,0 +1,125 @@
+/* * {
+    margin: 0px;
+    padding: 0px;
+} */
+.container {
+    padding: 10px;
+    background-color: #8080804d;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+        'Lucida Sans', Arial, sans-serif;
+}
+.projectTitle {
+    margin-left: 10px;
+}
+.projectBody {
+    display: flex;
+    flex-direction: row;
+}
+.filtersCard{
+    background-color: white;
+    padding: 5px;
+    margin: 10px;
+    width: 90%;
+}
+.programs {
+    widows: 80%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.filtersTitle {
+    font-size: 18px;
+    font-weight: bold;
+    border-bottom: #aaaaaa;
+    margin-bottom: 5%;
+}
+.filtersCaption {
+    color: grey;
+    text-align: center;
+    border-bottom: 1px solid;
+    margin: 10%;
+}
+.launchYear > table {
+    width: 100%;
+    text-align: center;
+}
+/* .launchYear > table > tr > td > button {
+    outline: none;
+    background-color: #83f083;
+    border: none;
+    padding: 5px;
+
+    border-radius: 5px;
+} */
+
+.btn-year{
+    outline: none;
+    background-color: #83f083;
+    border: none;
+    padding: 5px;
+    /* width: 60%; */
+    border-radius: 5px;
+}
+.btns-selected
+{
+    outline: none;
+    background-color: green;
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+    color:white
+}
+.filtersBody > table > tbody > tr > td {
+    padding-bottom: 5px;
+}
+.programCard {
+    width: 19%;
+    background-color: white;
+    margin: 10px;
+    height: fit-content;
+    padding: 10px;
+}
+.cardImage {
+    background-color: #ccc;
+    padding: 10px;
+}
+.cardImage > img {
+    width: 100%;
+}
+.cardBody {
+    line-height: 25px;
+}
+.programTitle {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.missionIds > ul {
+    padding-left: 10%;
+}
+.missionIds > ul > li {
+    color: grey;
+}
+
+.programTitle > span {
+    font-weight: bold;
+    color: blue;
+}
+@media screen and (max-width: 480px) {
+    .projectBody {
+        display: flex;
+        flex-direction: column;
+    }
+    .filters {
+        width: auto;
+        flex-basis: 100%;
+    }
+    .programs {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .programCard {
+        width: auto;
+        min-width: -webkit-fill-available;
+    }
+}
